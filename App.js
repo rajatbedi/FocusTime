@@ -92,6 +92,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: colors.bgColor,
-    paddingTop: Platform.OS.ios ? spacing.md : spacing.lg,
+    paddingTop: Platform.OS === 'ios' ? spacing.md : spacing.lg,
   },
 });
